@@ -6,7 +6,19 @@ namespace Open_Lab_03._09
     {
         public bool IsPrimeNumber(int num)
         {
-            throw new NotImplementedException();
+
+            for (int num2 = 2; num2 < num; num2++)
+                if (num % num2 == 0)
+                {
+                    return false;
+                }
+            if (num <= 1)
+            {
+                return false;
+            }        
+                return true;
+
+
         }
     }
 }
