@@ -15,7 +15,10 @@ namespace Open_Lab_03._09
             if (num <= 1)
             {
                 return false;
-            }        
+            }
+            if (num == 2)
+                return true;
+
                 return true;
 
 
